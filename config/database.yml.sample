@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: grafitme_development
+  pool: 5
+  username: grafitme
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: grafitme_test
+  pool: 5
+  username: grafitme
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: grafitme_production
+  pool: 5
+  username: grafitme
+  password:
